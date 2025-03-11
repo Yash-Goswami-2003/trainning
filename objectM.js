@@ -75,7 +75,7 @@ console.log(frObj);     // modified
 frObj.obj.mail = '' ;
 console.log(frObj);     // modified
 
-// Object.freeze freezes object shallow 
+// Object.freeze shallow freezes object 
 // if we need to deep freeze we need to make a function for that
 
 function deepFreeze(obj)
