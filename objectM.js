@@ -124,4 +124,4 @@ delete objSeal.name ;
 console.log(objSeal);
 // seal prevent adding or deleting parameters but can modify them
 
-// Chiya
+// Chiya Pandey
