@@ -130,3 +130,17 @@ function Student(prop)
     this.age = prop.age ;
     this.balance =prop.balance ;
 }
+
+class Account {
+    constructor(student)
+    {
+        this.user = student ;
+    }
+    credit(ammount){
+        this.user.balance +=ammount ;
+    }
+    debit(ammount)
+    {
+        this.user.balance -= ammount ;
+    }
+}
