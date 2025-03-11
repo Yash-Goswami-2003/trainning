@@ -124,5 +124,9 @@ delete objSeal.name ;
 console.log(objSeal);
 // seal prevent adding or deleting parameters but can modify them
 
-// RAGA, SM, JTrix
-// This will never Happen Again
+function Student(prop)
+{
+    this.name = prop.name ;
+    this.age = prop.age ;
+    this.balance =prop.balance ;
+}
