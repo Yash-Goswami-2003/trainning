@@ -125,3 +125,4 @@ console.log(objSeal);
 // seal prevent adding or deleting parameters but can modify them
 
 // RAGA, SM, JTrix
+// This will never Happen Again
