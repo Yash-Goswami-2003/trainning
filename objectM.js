@@ -144,3 +144,15 @@ class Account {
         this.user.balance -= ammount ;
     }
 }
+
+let user3 = new Student({
+    name : "yash",
+    age : 21,
+    balance : 5000
+}) ;
+
+let accountUser3 = new Account(user3) ;
+
+console.log(accountUser3) ;
+accountUser3.credit(100);
+console.log(accountUser3);
