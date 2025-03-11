@@ -123,6 +123,16 @@ console.log(objSeal);
 delete objSeal.name ;
 console.log(objSeal);
 // seal prevent adding or deleting parameters but can modify them
-
-// RAGA, SM, JTrix
-// This will never Happen Again
+class Account {
+    constructor(student)
+    {
+        this.user = student ;
+    }
+    credit(ammount){
+        this.user.balance +=ammount ;
+    }
+    debit(ammount)
+    {
+        this.user.balance -= ammount ;
+    }
+}
