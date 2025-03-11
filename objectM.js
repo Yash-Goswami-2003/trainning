@@ -124,4 +124,6 @@ delete objSeal.name ;
 console.log(objSeal);
 // seal prevent adding or deleting parameters but can modify them
 
+// Can we be Strangers Again
+
 // Chiya
