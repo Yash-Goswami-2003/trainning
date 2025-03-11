@@ -43,4 +43,4 @@ let maxValue = arr.reduce((val,ele)=>(Math.max(val,ele))) ;
 // console.log(sum,minValue,maxValue) ;
 
 // Reduce means reducing to single value
-// it can be used find sum, min, max etc 
+// it can be used find sum, min, max etc
